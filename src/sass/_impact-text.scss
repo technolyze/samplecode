@@ -1,0 +1,69 @@
+.impact-text {
+  padding: 15px 0 50px;
+  text-align: center;
+
+  &.padding-top {
+    padding-top: 50px;
+  }
+
+  &.text-align-left {
+    text-align: left;
+  }
+
+  h3 {
+    line-height: 42px;
+    font-size: 34px;
+    margin-bottom: 20px;
+  }
+
+  h4 {
+      font-size: 28px;
+      font-weight: 400;
+  }
+
+  p {
+    line-height: 1.5em;
+    //color: #003a6b;
+    color: #454f57;
+    font-size: 24px;
+  }
+
+  ul {
+      margin-bottom: 20px;
+  }
+
+  ul li {
+    font-size: 24px;
+    line-height: 1.5em;
+    margin-bottom: 10px;
+    &:before {
+        top: 18px;
+    }
+  }
+
+  img {
+      max-width: 100%;
+  }
+}
+@media (max-width: 767.98px) {
+  .impact-text {
+    padding: 30px 0;
+
+    h3 {
+      font-size: 28px;
+      line-height: 1.4em;
+    }
+
+    h4 {
+        font-size: 20px;
+    }
+
+    p {
+      font-size: 18px;
+    }
+
+    ul li {
+        font-size: 18px;
+    }
+  }
+}
